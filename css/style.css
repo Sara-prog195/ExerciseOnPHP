@@ -1,0 +1,36 @@
+*{margin: 0; padding: 0;}
+
+body{
+	font:12px Monaco, Monospace;
+	/*background: #eee;*/
+}
+.contenido{
+	width: 60%;
+	height: auto;
+	display: block;
+	margin: 80px auto; /* auto para centrar el menÃº*/
+	background: #99b3ff; /*Color de fondo del contenido*/
+	border: 10% solid black;
+	padding: 20px 5%;
+	border-radius: 50px; /*sirve para dar esquinas redondeadas en el menÃº*/ 
+	-moz- border-radius:50px; /*mozila*/
+	-webkit- border-radius:50px; /*chrome*/
+	
+	-webkit-box-shadow: 79px -18px 14px -13px rgba(0,0,0,0.55);
+	-moz-box-shadow: 79px -18px 14px -13px rgba(0,0,0,0.55);
+	box-shadow: 79px -18px 14px -13px rgba(0,0,0,0.55);
+}
+h1{
+	font-size: 40px;
+	font-family: 'Baloo 2', cursive;
+   	text-align: center;
+}
+#enlace{
+	color: #ffffff;
+	font-family: 'Baloo 2', cursive;
+   	text-align: center;
+   	text-decoration: none;
+}
+#enlace:hover{
+	color: pink;
+	}
